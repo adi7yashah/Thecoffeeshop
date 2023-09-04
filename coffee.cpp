@@ -4,7 +4,6 @@
 #include<string.h>
 #include<windows.h>
 #include<time.h>
-#include<bits/stdc++.h>
 
 
 ///Logic Functions
@@ -82,12 +81,12 @@ int main(){
 	int citem;
 
 	head = NULL;
-	insertfirst(5,"Americano",23,120.23);
-	insertend(6,"Latte    ",13,100.67);
-	insertend(1,"Cappuccino",8,720.83);
-	insertend(2,"Espresso  ",46,70.23);
-	insertend(3,"Irish     ",46,70.23);
-	insertend(4,"Affogato  ",34,60.23);
+	insertfirst(1,"Americano",23,120.23);
+	insertend(2,"Latte    ",13,100.67);
+	insertend(3,"Cappuccino",8,720.83);
+	insertend(4,"Espresso  ",46,70.23);
+	insertend(5,"Irish     ",46,70.23);
+	insertend(6,"Affogato  ",34,60.23);
 	insertend(7,"Mochachino",7,520.29);
 	insertend(8,"Macchiato",121,35.13);
 	insertend(9,"Flat White",73,20.13);
